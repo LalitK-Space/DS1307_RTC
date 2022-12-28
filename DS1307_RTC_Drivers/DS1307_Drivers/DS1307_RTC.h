@@ -15,12 +15,12 @@
 
 
 /* -- Application Configurable Items  -- */
-#define DS1307_I2C_Peripheral	I2C1				// DS1307 is connected to I2C1 Peripheral
-#define DS1307_I2C_GPIO_PORT	GPIOB				// DS1307 is connected to GPIO port B
+#define DS1307_I2C_Peripheral		I2C1				// DS1307 is connected to I2C1 Peripheral
+#define DS1307_I2C_GPIO_PORT		GPIOB				// DS1307 is connected to GPIO port B
 #define DS1307_I2C_SDA_PIN		GPIO_Pin_7			// DS1307 SDA is connected to PB7
 #define DS1307_I2C_SCL_PIN		GPIO_Pin_6			// DS1307 SCL is connected to PB6
 #define DS1307_I2C_PUPD			GPIO_PIN_PU			// Internal Pull-Up
-#define DS1307_I2C_SPEED		I2C_SCL_SPEED_SM	// I2C is in Standard Mode (DO NOT CHANGE)
+#define DS1307_I2C_SPEED		I2C_SCL_SPEED_SM		// I2C is in Standard Mode (DO NOT CHANGE)
 
 
 /* -- Registers Addresses -- */
@@ -40,13 +40,13 @@
 #define TIME_FORMAT_24H			2
 
 /* -- Days -- */
-#define SUNDAY					1
-#define MONDAY					2
-#define TUESDAY					3
-#define WEDNESDAY				4
-#define THURSDAY				5
-#define FRIDAY					6
-#define SATURDAY				7
+#define SUNDAY				1
+#define MONDAY				2
+#define TUESDAY				3
+#define WEDNESDAY			4
+#define THURSDAY			5
+#define FRIDAY				6
+#define SATURDAY			7
 
 /* -- Device Address (I2C) -- */
 #define DS1307_I2C_ADDR			0x68

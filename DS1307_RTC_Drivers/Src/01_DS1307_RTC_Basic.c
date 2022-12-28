@@ -12,8 +12,8 @@ extern void initialise_monitor_handles(void);
 
 /* -- Helper Functions -- */
 char* get_DayofWeek(uint8_t day);			// To get current day of the week
-char* Time_to_String(RTC_Time_h *pRTCTime); // To convert time information into a string [hh:mm:ss]
-char* Date_to_String(RTC_Date_h *pRTCDate); // To convert date information into a string [dd-mm-yy]
+char* Time_to_String(RTC_Time_h *pRTCTime); 		// To convert time information into a string [hh:mm:ss]
+char* Date_to_String(RTC_Date_h *pRTCDate); 		// To convert date information into a string [dd-mm-yy]
 
 
 int main(void)

@@ -1,0 +1,5 @@
+../Src/01_DS1307_RTC_Basic.c:19:5:main	32	static
+../Src/01_DS1307_RTC_Basic.c:101:6:Number_to_String	16	static
+../Src/01_DS1307_RTC_Basic.c:126:7:Time_to_String	16	static
+../Src/01_DS1307_RTC_Basic.c:154:7:Date_to_String	16	static
+../Src/01_DS1307_RTC_Basic.c:181:7:get_DayofWeek	56	static

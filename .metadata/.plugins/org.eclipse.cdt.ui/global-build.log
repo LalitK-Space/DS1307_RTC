@@ -1,0 +1,21 @@
+22:25:27 **** Incremental Build of configuration Debug for project DS1307_RTC_Drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/01_DS1307_RTC_Basic.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I"D:/Resources/GIT/g_DS1307_RTC_Drivers/DS1307_RTC/DS1307_RTC_Drivers/DS1307_Drivers" -I../Inc -I"D:/Resources/GIT/g_DS1307_RTC_Drivers/DS1307_RTC/DS1307_RTC_Drivers/Device_Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/01_DS1307_RTC_Basic.d" -MT"Src/01_DS1307_RTC_Basic.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/01_DS1307_RTC_Basic.o"
+arm-none-eabi-gcc -o "DS1307_RTC_Drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Resources\GIT\g_DS1307_RTC_Drivers\DS1307_RTC\DS1307_RTC_Drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DS1307_RTC_Drivers.map" -Wl,--gc-sections -static -specs=rdimon.specs -lc -lrdimon --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DS1307_RTC_Drivers.elf
+ 
+arm-none-eabi-size   DS1307_RTC_Drivers.elf 
+arm-none-eabi-objdump -h -S  DS1307_RTC_Drivers.elf  > "DS1307_RTC_Drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+  11060	    136	   1824	  13020	   32dc	DS1307_RTC_Drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: DS1307_RTC_Drivers.list
+ 
+22:25:32 **** Incremental Build of configuration Debug for project DS1307_RTC_Drivers ****
+make -j12 all 
+arm-none-eabi-size   DS1307_RTC_Drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11060	    136	   1824	  13020	   32dc	DS1307_RTC_Drivers.elf
+Finished building: default.size.stdout
+ 

@@ -1,0 +1,10 @@
+22:25:32 **** Incremental Build of configuration Debug for project DS1307_RTC_Drivers ****
+make -j12 all 
+arm-none-eabi-size   DS1307_RTC_Drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11060	    136	   1824	  13020	   32dc	DS1307_RTC_Drivers.elf
+Finished building: default.size.stdout
+ 
+
+22:25:32 Build Finished. 0 errors, 0 warnings. (took 168ms)
+
